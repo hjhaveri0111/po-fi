@@ -1,38 +1,103 @@
 .App {
+  /* background: rgb(131, 182, 146); */
+  background: #CAE2BC; 
+  /* background: #90e0ef;  */
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10vh;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+
+.btn {
+  margin: 10px;
+  padding: 1.5vh;
+  border-width: 0;
+  cursor: pointer;
+  background: #95969d;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2vh;
+  font-weight: bold;
+  border-radius: .5em;
+  box-shadow: 0px .3em 0px 0px #595a5f;
+  min-width: 100%;
+}
+
+.btn-clicked {
+  transform: translate(0, .3em);
+  min-width: 100%;
+  margin: 10px;
+  padding: 1.5vh;
+  border-width: 0;
+  cursor: pointer;
+  background: #95969d;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2vh;
+  font-weight: bold;
+  border-radius: .5em;
+}
+
+.title {
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background: #a3bb95;
+  /* background: #6eadb8; */
+  min-height: 10vh;
+  
+  border-radius: .5rem;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+}
+
+.btn-mode {
+  margin-top: 1em;
+  padding: 1vh;
+  border-width: 0;
+  cursor: pointer;
+  /* background: #CAE2BC; */
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5vh;
+  font-weight: bold;
+  border-radius: .5em;
+  min-width: 100%;
+}
+
+.btn-mode-clicked {
+  margin-top: 1em;
+  padding: 1vh;
+  border-width: 0;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.15) none repeat scroll 0% 0%;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5vh;
+  font-weight: bold;
+  border-radius: .5em;
+  min-width: 100%;
+  transition: color 0.5s ease-in 0s;
 }
