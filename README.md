@@ -1,6 +1,6 @@
 # Po-Fi
 
-A Pomodoro Study App with Lo-Fi music in the background
+A Pomodoro Study App with Lo-Fi music in the background made with React
 ![Peek 2021-10-24 22-30](https://user-images.githubusercontent.com/22431170/138626223-50a5bd52-8712-4fde-8eea-f0b003f4f743.gif)
 
 ## Functionality
